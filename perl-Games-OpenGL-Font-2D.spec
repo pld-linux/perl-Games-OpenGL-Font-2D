@@ -3,7 +3,6 @@
 %bcond_with	tests	# do not perform "make test"
 # test are failing, no idea why, yet
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Games
 %define		pnam	OpenGL-Font-2D
 Summary:	perl(Games::OpenGL::Font::2D) - load/render 2D colored bitmap fonts via OpenGL
